@@ -8,4 +8,4 @@ def calculator(number1, number2, operation = str):
     elif operation.lower() == "divide":
         return print(f"Result of the Divide: {number1 // number2}")
     else:
-        print(f"Invalid Operation.")
+        print(f"Invalid Operation. Try Again.")
